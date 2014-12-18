@@ -1,6 +1,6 @@
 name: gox
-version: 0.1.0
-inherits: wercker/golang@1.2.1
+version: 0.2.0
+inherits: wercker/golang@1.3.0
 type: main
 platform: ubuntu@12.04
 description: Wercker box for gox, cross-compiling golang project parallelly

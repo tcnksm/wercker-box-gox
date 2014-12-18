@@ -13,18 +13,18 @@ To build tool-chain, it takes long time, so we should pre-install it as box
 In the `wercker.yml` of your application use the following step definition:
 
 ```yaml
-box: tcnksm/gox@0.1.0
+box: tcnksm/gox@0.2.0
 ```
 
 ## Box details
 
-This box is based on Ubuntu 12.04 and inherited from [werkcer/golang@1.2.1](https://github.com/wercker/box-golang). 
+This box is based on Ubuntu 12.04 and inherited from [werkcer/golang@1.3.0](https://github.com/wercker/box-golang).
 
 ## Steps
 
 You can use below step scripts they would work well with this box:
 
-- [tcnksm/wercker-step-gox](https://github.com/tcnksm/wercker-step-gox) - Wercker step for mitchellh/gox, cross-compiling golang project parallelly 
+- [tcnksm/wercker-step-gox](https://github.com/tcnksm/wercker-step-gox) - Wercker step for mitchellh/gox, cross-compiling golang project parallelly
 - [tcnksm/wercker-step-zip](https://github.com/tcnksm/wercker-step-zip) - Wercker step for packaging directories
 - [tcnksm/wercker-step-ghr](https://github.com/tcnksm/wercker-step-ghr) - Wercker step for tcnksm/ghr, create Github Release and uploading artifacts
 
