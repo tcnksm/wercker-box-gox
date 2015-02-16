@@ -1,4 +1,4 @@
-Wercker box gox [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/tcnksm/wercker-box-gox/blob/master/LICENCE)
+Wercker box gox [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/tcnksm/wercker-box-gox/blob/master/LICENCE)
 ====
 
 [![wercker status](https://app.wercker.com/status/1e96bc8093f7b7ae1881c6dfb62157d3/m "wercker status")](https://app.wercker.com/project/bykey/1e96bc8093f7b7ae1881c6dfb62157d3)
